@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+html{
+    font-family: 'Poppins', sans-serif;
+    
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 11.164274322169058vh;
+}
+#navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.75rem;
+}
+#navbar ul li a:hover{
+    background-color: rgb(215, 255, 242);
+    border-radius: 20px;
+}
+img{
+    width: 2rem;
+}
+.heading-name{
+    display: flex;
+    align-items: center;
+}
+.heading-name h1{
+    margin-left: 10px;
+}
+
+#footbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 11.164274322169058vh;
+}
+#footbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#footbar ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.75rem;
+}
+#footbar ul li a:hover{
+    background-color: rgb(215, 255, 242);
+    border-radius: 20px;
+}
+
+#footbar ul li a img{
+    margin-right: 5px;
+    width: 1.5rem;
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: aquamarine;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  #home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 77.672vh;
+    background: #f5f5f5;
+
+}
+.calculator{
+    background-color: rgb(115, 214, 181);
+    padding: 20px;
+    border-radius: 10px;
+}
+.calculator  button{
+    border: 0;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    background-color: rgb(89, 170, 143);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 8px;
+
+}
+.calculator  button:hover{
+    background-color: rgba(109, 206, 174, 0.514);
+}
+.calculator  button:active{
+    background-color: #f1f1f1;
+}
+.calculator  input{
+    border: 0;
+    outline: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255,255,255,0.1),5px 5px 15px rgba(0,0,0,0.2);
+    background: transparent;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    margin: 8px;
+
+}
+.display{
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+.display input{
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+.calculator #beraber{
+    width: 100px;
+}
+

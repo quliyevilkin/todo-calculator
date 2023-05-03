@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <!--Css-->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="./todo.css">
+    <!--Tablet-->
+    <link rel="stylesheet" media="(max-width: 768px)"  href="../css/tablet.css">
+    <!-- Mobile-->
+    <link rel="stylesheet" media="(max-width: 500px)"  href="../css/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="../image/500px.png">
+    <title>500.com</title>
+</head>
+<body>
+    <header class="bg-aquamarine">
+        <div class="container">
+            <nav id="navbar">
+                <div class="heading-name">
+                    <img src="../image/500px.png" alt="">
+                    <h1 class="heading-small">500.com</h1>
+                </div>
+            
+                <ul>
+                    <li><a href="../home.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#products" class="dropbtn">Products</a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li><a href="../calculator.html">Calculator</a></li>
+                                <li><a href="./todo.html">Todo</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <section id="home">
+        <h1 class="title">To Do list app</h1>
+        <div class="todo-list">
+            <div class="list-head">
+                <input type="text" class="entered-list">
+                <button class="add-list">Add</button>
+            </div>
+
+            <div class="tasks">
+              <!--  <div class="item">
+                    <p>new item</p>
+                    <div class="item-btn">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-aquamarine">
+        <div class="container">
+            <nav id="footbar">
+                <ul>
+                    <li><a href="https://www.instagram.com/qlyvilkn/" target="_blank"> <img src="../image/instagram.png" alt=""> Instagram</a></li>
+                    <li><a href="www.linkedin.com/in/ilkin-quliyev-9450a822a" target="_blank"> <img src="../image/linkedin.png" alt="" srcset=""> LinkedIn</a></li>
+                    <li><a href="https://github.com/quliyevilkin" target="_blank"> <img src="../image/github.png" alt=""> Github</a></li>
+
+                    </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="./todo.js"></script>
+</body>
+</html>
